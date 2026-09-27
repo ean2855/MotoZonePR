@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado principal */
+.hero {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0.55)
+    ),
+    url("images/moto-fondo.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-align: center;
+    padding: 140px 20px;
+}
+
+/* Título del encabezado */
+.hero h1 {
+    font-size: 50px;
+}
+
+/* Texto del encabezado */
+.hero p {
+    font-size: 20px;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 40px;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
